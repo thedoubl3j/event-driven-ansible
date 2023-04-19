@@ -15,4 +15,4 @@ def lint_mypy(session):
 #force output to stdout, no write to file
 def lint_isort(session):
     session.install("isort")
-    session.run("isort", "extensions/plugins/" "--stdout")
+    session.run("isort", "extensions/plugins/", "--stdout")
